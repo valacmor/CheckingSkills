@@ -1,0 +1,25 @@
+:root {
+  --color-primary: #2563eb;
+  --color-secondary: #0891b2;
+  --color-select: #003644;
+  --color-accent: #7c3aed;
+  --color-background: #ffffff;
+  --color-surface: #f3f4f6;
+  --color-text: #111827;
+  --color-text-light: #6b7280;
+  --color-border: #d1d5db;
+  --color-error: #dc2626;
+  --color-success: #16a34a;
+  --color-navigation: #08692b;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--color-text);
+  color: var(--color-surface);
+}
